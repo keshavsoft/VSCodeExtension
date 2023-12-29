@@ -8,11 +8,12 @@ function activate(context) {
 		vscode.window.showInformationMessage('Hello World from KeshavSoft---!');
 	});
 
+	
+
 	context.subscriptions.push(disposable);
 }
 
-// This method is called when your extension is deactivated
-function deactivate() {}
+function deactivate() { }
 
 module.exports = {
 	activate,
