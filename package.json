@@ -16,7 +16,7 @@
     "commands": [
       {
         "command": "ksextension.helloWorld",
-        "title": "KeshavSoft World"
+        "title": "KSHelloWorld"
       }
     ]
   },
