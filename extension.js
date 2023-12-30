@@ -1,5 +1,6 @@
 const vscode = require('vscode');
 
+
 /**
  * @param {vscode.ExtensionContext} context
  */
@@ -10,6 +11,16 @@ let activate = async (context) => {
 	if (LocalFromInformation==="Bad") {
 		vscode.window.showInformationMessage('So sad to hear that');
 	};
+
+	if (LocalFromInformation==="Good") {
+		
+		let uri = vscode.window.activeTextEditor.document.uri.fsPath;
+	
+		vscode.window.showInformationMessage(uri);
+
+	};
+
+	
 	});
 
 	context.subscriptions.push(disposable);
