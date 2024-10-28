@@ -3,7 +3,7 @@
   "displayName": "KSExtension",
   "publisher": "KeshavSoft",
   "description": "My First Extension",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.85.0"
   },
